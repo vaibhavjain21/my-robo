@@ -1,0 +1,20 @@
+{
+  "name": "my-robo",
+  "version": "1.0.0",
+  "description": "My Robotic Simulator",
+  "author": "Vaibhav Jain",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node ./bin/my_robo.js"
+  },
+  "bin": {
+    "robot": "./bin/my_robo.js"
+  },
+ 
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "sinon": "^7.4.1"
+  }
+}
